@@ -82,7 +82,6 @@ int part2(vector<string> backpacks) {
         i++;
     }
     int sum = 0;
-    cout << elfGroups.size() << endl;
     for (vector<map<char, int>> group : elfGroups) {
         char bc = determine_badge_char(group);
         sum += char_priority(bc);
