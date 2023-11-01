@@ -10,3 +10,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_BUILD_TYPE Debug)
 
 add_subdirectory(aoc2022)
+
+add_executable(scratch scratch.cpp)
